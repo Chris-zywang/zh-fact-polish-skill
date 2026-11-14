@@ -1,0 +1,374 @@
+[
+  {
+    "id": "missing_profit",
+    "kind": "negative",
+    "claim": "2024年该公司销售额为100亿元，净利润为37亿元。",
+    "sources": [
+      "2024年该公司销售额为100亿元，净利润为999亿元。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "year_substring",
+    "kind": "negative",
+    "claim": "该项目共有20名参与者。",
+    "sources": [
+      "2024年项目报告已经发布。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "amount_unit",
+    "kind": "negative",
+    "claim": "该公司年度销售额为100万元。",
+    "sources": [
+      "该公司年度销售额为100亿元。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "swapped_metrics",
+    "kind": "negative",
+    "claim": "该公司销售额为100亿元，净利润为20亿元。",
+    "sources": [
+      "该公司销售额为20亿元，净利润为100亿元。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "percent_substring",
+    "kind": "negative",
+    "claim": "本次调查的普及率为5%。",
+    "sources": [
+      "本次调查的普及率为50%。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "count_vs_percent",
+    "kind": "negative",
+    "claim": "本次调查有60名受访者。",
+    "sources": [
+      "本次调查的受访者占比为60%。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "quote_tail",
+    "kind": "negative",
+    "claim": "负责人说：“希望同学们把读书当成一种习惯，坚持自主阅读。”",
+    "sources": [
+      "负责人说：“希望同学们把读书当成一种习惯，所有活动均需付费。”"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "release_vs_survey",
+    "kind": "negative",
+    "claim": "该机构2022年公布了调查结果。",
+    "sources": [
+      "该机构2022年完成调查，2023年公布了调查结果。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "first_two_years",
+    "kind": "negative",
+    "claim": "林场头两年造林成活率不足5%。",
+    "sources": [
+      "林场第一年造林成活率不足5%，第二年成活率不足8%。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "that_year",
+    "kind": "negative",
+    "claim": "林场头两年造林成活率不足5%。",
+    "sources": [
+      "当年春夏之交栽下松树，林木成活率不足5%。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "age_direction",
+    "kind": "negative",
+    "claim": "调查对象均为60岁以上人群。",
+    "sources": [
+      "调查对象均为60岁以下人群。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "species_vs_people",
+    "kind": "negative",
+    "claim": "全球有100万种动植物面临威胁。",
+    "sources": [
+      "Around 1 million people are affected."
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "range_exact",
+    "kind": "negative",
+    "claim": "研究共筛选380种提取物。",
+    "sources": [
+      "研究筛选380多种提取物。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "year_number_binding",
+    "kind": "negative",
+    "claim": "2024年公司销售额为100亿元。",
+    "sources": [
+      "2023年公司销售额为100亿元，2024年公司销售额为200亿元。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "breakup_wrong_year",
+    "kind": "negative",
+    "claim": "2006年火箭首次发射；2008年火箭在分离时解体。",
+    "sources": [
+      "2006年火箭首次发射并解体；2008年火箭在分离时发生碰撞。"
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "false_country",
+    "kind": "negative",
+    "claim": "研究表明，三套数据均来自英国青少年。",
+    "sources": [
+      "The three datasets include adolescents from the United Kingdom and the United States."
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "wrong_research_metric",
+    "kind": "negative",
+    "claim": "研究表明，这项模型显著降低词错误率。",
+    "sources": [
+      "The model achieved a phoneme error rate of 17.7 percent."
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "unknown_claim",
+    "kind": "manual_review",
+    "claim": "研究表明，睡眠不足会降低抗体水平。",
+    "sources": [
+      "Studies show that people who do not get enough sleep produce fewer antibodies after vaccination."
+    ],
+    "expected_trusted": false,
+    "synthetic": true
+  },
+  {
+    "id": "same_money",
+    "kind": "positive",
+    "claim": "2024年该公司销售额为100亿元，净利润为20亿元。",
+    "sources": [
+      "2024年该公司销售额为100亿元，净利润为20亿元。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "money_conversion",
+    "kind": "positive",
+    "claim": "该公司销售额为100万元。",
+    "sources": [
+      "该公司销售额为1000000元。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "person_alias",
+    "kind": "positive",
+    "claim": "共有300名师生参加活动。",
+    "sources": [
+      "共有300人参加活动。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "scaled_person",
+    "kind": "positive",
+    "claim": "该地区共有3.1亿人。",
+    "sources": [
+      "该地区共有310310000人。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "english_million",
+    "kind": "positive",
+    "claim": "2019年报告指出约100万种动植物面临威胁。",
+    "sources": [
+      "A 2019 report shows around 1 million animal and plant species are threatened."
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "percent_exact",
+    "kind": "positive",
+    "claim": "2024年互联网普及率为78.6%。",
+    "sources": [
+      "2024年互联网普及率为78.6%。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "separate_sources",
+    "kind": "positive",
+    "claim": "1962年369名建设者登上林场；2017年林场获颁奖项。",
+    "sources": [
+      "1962年369人登上林场。",
+      "2017年林场获颁奖项。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "exact_quote",
+    "kind": "positive",
+    "claim": "负责人说：“希望同学们把读书当成一种习惯。”",
+    "sources": [
+      "负责人说：“希望同学们把读书当成一种习惯。”"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "age_alias",
+    "kind": "positive",
+    "claim": "我国60岁以上人口为3.1亿人。",
+    "sources": [
+      "我国60岁及以上人口为310310000人。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "same_bound",
+    "kind": "positive",
+    "claim": "林木成活率不足5%。",
+    "sources": [
+      "林木成活率不足5%。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "inequality_implied",
+    "kind": "positive",
+    "claim": "林木成活率不足5%。",
+    "sources": [
+      "林木成活率为4%。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "same_scope",
+    "kind": "positive",
+    "claim": "林场头两年造林成活率不足5%。",
+    "sources": [
+      "林场前两年造林成活率不足5%。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "same_year_event",
+    "kind": "positive",
+    "claim": "该机构2023年公布了调查结果。",
+    "sources": [
+      "该机构2023年公布了调查结果。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "extra_numbers",
+    "kind": "positive",
+    "claim": "公司销售额为100亿元。",
+    "sources": [
+      "公司销售额为100亿元，净利润为20亿元。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "approximate",
+    "kind": "positive",
+    "claim": "该项目约有300名志愿者。",
+    "sources": [
+      "该项目共有302人参加。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "thousands",
+    "kind": "positive",
+    "claim": "活动参与人数为1200人。",
+    "sources": [
+      "活动参与人数为1,200人。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "fullwidth_percent",
+    "kind": "positive",
+    "claim": "2024年互联网普及率为78.6%。",
+    "sources": [
+      "2024年互联网普及率为78.6％。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "same_growth",
+    "kind": "positive",
+    "claim": "研究筛选了380多种提取物。",
+    "sources": [
+      "研究筛选了380余种提取物。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  },
+  {
+    "id": "same_year_separate_values",
+    "kind": "positive",
+    "claim": "2024年公司销售额为100亿元，净利润为20亿元。",
+    "sources": [
+      "2024年公司销售额为100亿元。",
+      "2024年公司净利润为20亿元。"
+    ],
+    "expected_trusted": true,
+    "synthetic": true
+  }
+]

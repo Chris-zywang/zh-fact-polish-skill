@@ -1,0 +1,357 @@
+{
+ "draft": "E:\\学校\\大三上的课\\信息前沿\\文本优化skill新\\文本优化skill新\\接手完善\\20_框架集成验证\\Q30\\draft.md",
+ "genre": "news",
+ "claims": [
+  {
+   "id": "C01",
+   "line": 5,
+   "text": "实习周期：2026年10月13日至10月17日",
+   "types": [
+    "事件"
+   ],
+   "keys": {
+    "numbers": [],
+    "years": [
+     "2026"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "实习周期：2026 年 10 月 13 日至 10 月 17 日（第 3 周）",
+     "agent_verdict": "支持",
+     "note": "素材直接给出周期与周次"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "素材"
+   ]
+  },
+  {
+   "id": "C02",
+   "line": 11,
+   "text": "本周共编写接口测试用例34条，其中31条通过，3条发现缺陷。",
+   "types": [
+    "数据"
+   ],
+   "keys": {
+    "numbers": [
+     "34条",
+     "31条",
+     "3条"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "为订单模块编写接口测试用例 34 条，其中 31 条通过、3 条发现缺陷",
+     "agent_verdict": "支持",
+     "note": "用例数与通过、缺陷数均与素材一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "素材"
+   ]
+  },
+  {
+   "id": "C03",
+   "line": 11,
+   "text": "从结果看，通过的部分对应接口行为符合预期，发现缺陷的3条则把需要处理的问题找了出来。",
+   "types": [
+    "数据",
+    "事件"
+   ],
+   "keys": {
+    "numbers": [
+     "3条"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": [
+     "通过的部"
+    ]
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "",
+     "excerpt": "",
+     "agent_verdict": "未找到",
+     "note": "素材只给数字结果，没有“符合预期”“需要处理的问题”这类解释性判断，属原稿引申"
+    }
+   ],
+   "action": "删除",
+   "new_text": "",
+   "label": "待验证",
+   "label_reasons": [
+    "没有找到支撑证据；不能判定真伪，需补充来源"
+   ],
+   "source_kinds": []
+  },
+  {
+   "id": "C04",
+   "line": 13,
+   "text": "本周共提交3个缺陷报告，其中2个已被开发修复，1个仍在处理中。",
+   "types": [
+    "数据"
+   ],
+   "keys": {
+    "numbers": [
+     "3个",
+     "2个",
+     "1个"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": true,
+   "evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "提交 3 个缺陷报告，2 个已被开发修复，1 个仍在处理中",
+     "agent_verdict": "支持",
+     "note": "报告数与修复状态一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "素材"
+   ]
+  },
+  {
+   "id": "C05",
+   "line": 15,
+   "text": "本周学习使用Postman和JMeter，完成了一次压测练习，并发200，平均响应时间320毫秒。",
+   "types": [
+    "数据"
+   ],
+   "keys": {
+    "numbers": [
+     "200",
+     "320毫秒"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "学习使用 Postman 和 JMeter，完成一次压测练习（并发 200，平均响应时间 320 毫秒）",
+     "agent_verdict": "支持",
+     "note": "工具名、并发数与响应时间一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "素材"
+   ]
+  },
+  {
+   "id": "C06",
+   "line": 17,
+   "text": "本周参加2次部门晨会和1次需求评审。",
+   "types": [
+    "数据"
+   ],
+   "keys": {
+    "numbers": [
+     "2次",
+     "1次"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "参加 2 次部门晨会和 1 次需求评审",
+     "agent_verdict": "支持",
+     "note": "会议次数一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "素材"
+   ]
+  },
+  {
+   "id": "C07",
+   "line": 33,
+   "text": "第3周的实习以四项工作和一个环境问题收尾。",
+   "types": [
+    "数据"
+   ],
+   "keys": {
+    "numbers": [
+     "3周"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "",
+     "excerpt": "",
+     "agent_verdict": "未找到",
+     "note": "素材列出四项工作和一个问题，但没有“以……收尾”的概括表述，属原稿归纳"
+    }
+   ],
+   "action": "删除",
+   "new_text": "",
+   "label": "待验证",
+   "label_reasons": [
+    "没有找到支撑证据；不能判定真伪，需补充来源"
+   ],
+   "source_kinds": []
+  },
+  {
+   "id": "C08",
+   "line": 33,
+   "text": "34条用例、31条通过、3条发现缺陷，3个缺陷报告中2个已被修复、1个仍在处理，压测练习的并发200与平均响应时间320毫秒，2次部门晨会和1次需求评审，这些数字构成了我这一周的记录。",
+   "types": [
+    "数据"
+   ],
+   "keys": {
+    "numbers": [
+     "34条",
+     "31条",
+     "3条",
+     "3个",
+     "2个",
+     "1个",
+     "200",
+     "320毫秒",
+     "2次",
+     "1次"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": true,
+   "evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "为订单模块编写接口测试用例 34 条，其中 31 条通过、3 条发现缺陷",
+     "agent_verdict": "支持",
+     "note": "用例数字"
+    },
+    {
+     "url": "material.md",
+     "excerpt": "提交 3 个缺陷报告，2 个已被开发修复，1 个仍在处理中",
+     "agent_verdict": "支持",
+     "note": "缺陷数字"
+    },
+    {
+     "url": "material.md",
+     "excerpt": "完成一次压测练习（并发 200，平均响应时间 320 毫秒）",
+     "agent_verdict": "支持",
+     "note": "压测数字"
+    },
+    {
+     "url": "material.md",
+     "excerpt": "参加 2 次部门晨会和 1 次需求评审",
+     "agent_verdict": "支持",
+     "note": "会议数字"
+    }
+   ],
+   "action": "改正",
+   "new_text": "这一周的记录可以归成几组数字：34 条接口用例、2 个已修复的缺陷报告、一次并发 200 的压测练习、2 次晨会和 1 次需求评审。",
+   "label": "可信",
+   "final_evidence": [
+    {
+     "url": "material.md",
+     "excerpt": "为订单模块编写接口测试用例 34 条，其中 31 条通过、3 条发现缺陷",
+     "agent_verdict": "支持",
+     "note": "用例数字"
+    },
+    {
+     "url": "material.md",
+     "excerpt": "提交 3 个缺陷报告，2 个已被开发修复，1 个仍在处理中",
+     "agent_verdict": "支持",
+     "note": "缺陷数字"
+    },
+    {
+     "url": "material.md",
+     "excerpt": "完成一次压测练习（并发 200，平均响应时间 320 毫秒）",
+     "agent_verdict": "支持",
+     "note": "压测数字"
+    },
+    {
+     "url": "material.md",
+     "excerpt": "参加 2 次部门晨会和 1 次需求评审",
+     "agent_verdict": "支持",
+     "note": "会议数字"
+    }
+   ],
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "素材",
+    "素材",
+    "素材",
+    "素材"
+   ]
+  }
+ ],
+ "material_path": "E:\\学校\\大三上的课\\信息前沿\\文本优化skill新\\文本优化skill新\\接手完善\\20_框架集成验证\\Q30\\material.md",
+ "references": null
+}

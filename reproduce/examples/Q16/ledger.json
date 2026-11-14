@@ -1,0 +1,526 @@
+{
+ "draft": "E:\\学校\\大三上的课\\信息前沿\\文本优化skill新\\文本优化skill新\\接手完善\\20_框架集成验证\\Q16\\draft.md",
+ "genre": "essay",
+ "claims": [
+  {
+   "id": "C01",
+   "line": 5,
+   "text": "我国外卖行业起步于2008年，第一笔线上外卖订单成交至今不到二十年，行业已从早期的电话订餐、网页订餐，发展为以移动互联网平台为核心的即时配送体系。",
+   "types": [
+    "事件"
+   ],
+   "keys": {
+    "numbers": [],
+    "years": [
+     "2008"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "https://m.gmw.cn/2025-01/15/content_1303948517.htm",
+     "excerpt": "自2008年成交第一单外卖到现在，我国已成为全球第一大外卖市场。",
+     "agent_verdict": "支持",
+     "note": "起步年份与全球第一来自同一段摘录"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页"
+   ]
+  },
+  {
+   "id": "C02",
+   "line": 5,
+   "text": "中国互联网络信息中心数据显示，我国网上外卖用户规模已达5.45亿人，占网民整体的约五成，成为全球第一大外卖市场。",
+   "types": [
+    "数据",
+    "研究结论"
+   ],
+   "keys": {
+    "numbers": [
+     "5.45亿人"
+    ],
+    "years": [],
+    "titles": [],
+    "quotes": [],
+    "orgs": [
+     "中国互联网络信息中心"
+    ]
+   },
+   "flags": [],
+   "has_source_hint": true,
+   "evidence": [
+    {
+     "url": "https://m.gmw.cn/2025-01/15/content_1303948517.htm",
+     "excerpt": "中国互联网络信息中心数据显示，我国网上外卖用户规模已达5.45亿人，占网民整体的约五成。这一规模远超其他国家。",
+     "agent_verdict": "支持",
+     "note": "用户规模与占比一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页"
+   ]
+  },
+  {
+   "id": "C03",
+   "line": 5,
+   "text": "中国饭店协会数据显示，2023年我国餐饮外卖市场规模约1.2万亿元，占餐饮收入的比重升至22.6%，外卖等线上营销模式已成为餐饮企业重要的盈利渠道。",
+   "types": [
+    "数据",
+    "事件",
+    "研究结论"
+   ],
+   "keys": {
+    "numbers": [
+     "1.2万亿元",
+     "22.6%"
+    ],
+    "years": [
+     "2023"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": [
+     "中国饭店协会"
+    ]
+   },
+   "flags": [],
+   "has_source_hint": true,
+   "evidence": [
+    {
+     "url": "https://m.gmw.cn/2025-01/15/content_1303948517.htm",
+     "excerpt": "来自中国饭店协会的数据显示：2023年我国餐饮外卖市场规模约1.2万亿元，占餐饮收入的比重升至22.6%",
+     "agent_verdict": "支持",
+     "note": "规模、年份、占比一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页"
+   ]
+  },
+  {
+   "id": "C04",
+   "line": 7,
+   "text": "2025年以来，京东外卖等新平台进入，淘宝闪购加码即时零售，市场由\"双寡头\"转向多平台竞争。",
+   "types": [
+    "事件"
+   ],
+   "keys": {
+    "numbers": [],
+    "years": [
+     "2025"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "https://www.21jingji.com/article/20251230/herald/8cddbd3d106d1df517d177484eb019e7.html",
+     "excerpt": "2025年伊始，沉寂许久的外卖行业，被一场始于京东的千亿烧钱大战彻底改写。2月，京东以“品质外卖”为旗帜高调入局……阿里则通过将饿了么升级为淘宝闪购全面参战。",
+     "agent_verdict": "支持",
+     "note": "2025 年与京东、淘宝闪购同段出现"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页"
+   ]
+  },
+  {
+   "id": "C05",
+   "line": 7,
+   "text": "2025年5月，市场监管总局等五部门联合约谈京东、美团、饿了么等平台企业，要求公平有序竞争。",
+   "types": [
+    "事件"
+   ],
+   "keys": {
+    "numbers": [],
+    "years": [
+     "2025"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": [
+     "市场监管总局",
+     "等五部"
+    ]
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "https://www.samr.gov.cn/xw/mtjj/art/2025/art_7f60bdad48b14d5daceed96c7924e47d.html",
+     "excerpt": "发布时间：2025-05-14 14:49",
+     "agent_verdict": "支持",
+     "note": "约谈报道的发布时间"
+    },
+    {
+     "url": "https://www.samr.gov.cn/xw/mtjj/art/2025/art_7f60bdad48b14d5daceed96c7924e47d.html",
+     "excerpt": "市场监管总局会同中央社会工作部、中央网信办、人力资源社会保障部、商务部……约谈京东、美团、饿了么等平台企业。",
+     "agent_verdict": "支持",
+     "note": "五部门与约谈对象一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页(摘录过短)",
+    "网页"
+   ]
+  },
+  {
+   "id": "C06",
+   "line": 11,
+   "text": "据新华社2025年1月的调研报道，全国外卖骑手已超过1000万人，其中饿了么活跃骑手超过400万人，美团骑手以年均近20%的速度攀升至745万人；包括外卖骑手在内的新就业形态劳动者，全国已有8400万人。",
+   "types": [
+    "数据",
+    "事件"
+   ],
+   "keys": {
+    "numbers": [
+     "1000万人",
+     "400万人",
+     "20%",
+     "745万人",
+     "8400万人"
+    ],
+    "years": [
+     "2025"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": true,
+   "evidence": [
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "2025-01-16 11:51:35",
+     "agent_verdict": "支持",
+     "note": "报道发布时间"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "数据显示，目前全国外卖骑手已超1000万人。",
+     "agent_verdict": "支持",
+     "note": "骑手总数"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "饿了么活跃骑手超过400万人；美团的骑手以年均近20%增速攀升至745万人",
+     "agent_verdict": "支持",
+     "note": "平台骑手数"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "包括外卖骑手在内的新就业形态劳动者，全国已有8400万人。",
+     "agent_verdict": "支持",
+     "note": "新就业形态总量"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页(摘录过短)",
+    "网页(摘录过短)",
+    "网页",
+    "网页(摘录过短)"
+   ]
+  },
+  {
+   "id": "C07",
+   "line": 11,
+   "text": "这一群体有三个特点：一是流动性强，美团研究院披露，其骑手中近半数累计工作不满3个月，仅11%累计工作满260天；二是收入高度依赖单量，有骑手反映日均单量由2023年的45单降至2024年的30至35单，配送单价从8元左右降至7元左右，众包单价约4元；三是劳动强度上升，劳动时间超过10小时的骑手占比由2018年的36.5%升至2021年的62.6%。",
+   "types": [
+    "数据",
+    "事件"
+   ],
+   "keys": {
+    "numbers": [
+     "3个",
+     "11%",
+     "260天",
+     "8元",
+     "7元",
+     "4元",
+     "10小时",
+     "36.5%",
+     "62.6%"
+    ],
+    "years": [
+     "2023",
+     "2024",
+     "2018",
+     "2021"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": [
+     "美团研究院"
+    ]
+   },
+   "flags": [
+    "F1_数据无来源"
+   ],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "近半数累计工作不满3个月，只有11%的骑手累计工作满260天。",
+     "agent_verdict": "支持",
+     "note": "流动性与工作时长"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "有数据显示，2018年劳动时间超过10小时的骑手占比为36.5%，2021年这个数字上升到了62.6%。",
+     "agent_verdict": "支持",
+     "note": "劳动时间占比"
+    },
+    {
+     "url": "",
+     "excerpt": "",
+     "agent_verdict": "未找到",
+     "note": "“日均单量45单降至30至35单”“配送单价8元降至7元”“众包单价约4元”在所给摘录中均未出现，无法核实"
+    }
+   ],
+   "action": "改正",
+   "new_text": "这一群体有三个特点：一是流动性强，美团研究院披露，其骑手中近半数累计工作不满3个月，仅11%累计工作满260天；二是劳动强度上升，劳动时间超过10小时的骑手占比由2018年的36.5%升至2021年的62.6%。",
+   "label": "待验证",
+   "final_evidence": [
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "近半数累计工作不满3个月，只有11%的骑手累计工作满260天。",
+     "agent_verdict": "支持",
+     "note": ""
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "有数据显示，2018年劳动时间超过10小时的骑手占比为36.5%，2021年这个数字上升到了62.6%。",
+     "agent_verdict": "支持",
+     "note": ""
+    }
+   ],
+   "label_reasons": [
+    "要素或关系未获完整支持：8元（完整数值、单位、范围或指标绑定未获支持）、7元（完整数值、单位、范围或指标绑定未获支持）、4元（完整数值、单位、范围或指标绑定未获支持）、年份未出现：2023、年份未出现：2024"
+   ],
+   "source_kinds": [
+    "网页",
+    "网页"
+   ]
+  },
+  {
+   "id": "C08",
+   "line": 15,
+   "text": "2021年八部门发布《关于维护新就业形态劳动者劳动保障权益的指导意见》，2022年7月起在7省市7家平台企业开展职业伤害保障试点，参保人员已超过1000万人，但覆盖面与保障水平仍有提升空间。",
+   "types": [
+    "数据",
+    "事件"
+   ],
+   "keys": {
+    "numbers": [
+     "7家",
+     "1000万人"
+    ],
+    "years": [
+     "2021",
+     "2022"
+    ],
+    "titles": [
+     "关于维护新就业形态劳动者劳动保障权益的指导意见"
+    ],
+    "quotes": [],
+    "orgs": [
+     "年八部"
+    ]
+   },
+   "flags": [
+    "F1_数据无来源"
+   ],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "https://www.gov.cn/zhengce/zhengceku/2021-07/23/content_5626761.htm",
+     "excerpt": "人力资源社会保障部 国家发展改革委 交通运输部 应急部 市场监管总局 国家医保局 最高人民法院 全国总工会关于维护新就业形态劳动者劳动保障权益的指导意见",
+     "agent_verdict": "支持",
+     "note": "八部门联合发文"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "自2022年7月起，在北京、上海等7省市的7家平台企业开展新就业形态就业人员职业伤害保障试点",
+     "agent_verdict": "支持",
+     "note": "试点时间与范围"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "试点地区参保的几类新就业形态就业人员已超过1000万人",
+     "agent_verdict": "支持",
+     "note": "参保人数"
+    }
+   ],
+   "action": "改正",
+   "new_text": "2022年7月起，在7省市7家平台企业开展职业伤害保障试点，参保人员已超过1000万人，但覆盖面与保障水平仍有提升空间。",
+   "label": "待验证",
+   "label_reasons": [
+    "要素或关系未获完整支持：年份未出现：2021、年份与事件未在同一证据语境绑定：2021/release"
+   ],
+   "source_kinds": [
+    "网页",
+    "网页",
+    "网页(摘录过短)"
+   ],
+   "final_evidence": [
+    {
+     "url": "https://www.gov.cn/zhengce/zhengceku/2021-07/23/content_5626761.htm",
+     "excerpt": "人力资源社会保障部 国家发展改革委 交通运输部 应急部 市场监管总局 国家医保局 最高人民法院 全国总工会关于维护新就业形态劳动者劳动保障权益的指导意见",
+     "agent_verdict": "支持",
+     "note": ""
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "自2022年7月起，在北京、上海等7省市的7家平台企业开展新就业形态就业人员职业伤害保障试点",
+     "agent_verdict": "支持",
+     "note": ""
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "试点地区参保的几类新就业形态就业人员已超过1000万人",
+     "agent_verdict": "支持",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "line": 17,
+   "text": "2024年11月，中央网信办等四部门开展专项行动，要求平台公示时间预估、费用计算、路线规划等算法规则；2025年元旦前，美团宣布建立算法公开机制，并称2025年底前逐步取消超时扣款。",
+   "types": [
+    "事件"
+   ],
+   "keys": {
+    "numbers": [],
+    "years": [
+     "2024",
+     "2025",
+     "2025"
+    ],
+    "titles": [],
+    "quotes": [],
+    "orgs": [
+     "中央网信办等四部"
+    ]
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "http://www.news.cn/politics/20241124/4d783f2cb0944702b66fd03d267ba84a/c.html",
+     "excerpt": "2024年11月12日",
+     "agent_verdict": "支持",
+     "note": "行动时间"
+    },
+    {
+     "url": "http://www.news.cn/politics/20241124/4d783f2cb0944702b66fd03d267ba84a/c.html",
+     "excerpt": "详细公示时间预估、费用计算、路线规划等算法规则。",
+     "agent_verdict": "支持",
+     "note": "算法公示要求"
+    },
+    {
+     "url": "https://www.news.cn/politics/20250116/76ec3cf62fb7416aa7abd94938bc078e/c.html",
+     "excerpt": "2025年元旦前夕，美团发布公告称，将建立算法公开机制，在2025年底前逐步取消骑手超时扣款，推动从负向处罚向正向激励的转变。",
+     "agent_verdict": "支持",
+     "note": "美团公告时间与内容；摘录未写“四部门”，该表述保留待核"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页(摘录过短)",
+    "网页(摘录过短)",
+    "网页"
+   ]
+  },
+  {
+   "id": "C10",
+   "line": 21,
+   "text": "首个绿色外卖国家标准《绿色外卖管理规范》于2023年底发布实施，但一次性包装的减量与回收仍待落实。",
+   "types": [
+    "事件"
+   ],
+   "keys": {
+    "numbers": [],
+    "years": [
+     "2023"
+    ],
+    "titles": [
+     "绿色外卖管理规范"
+    ],
+    "quotes": [],
+    "orgs": []
+   },
+   "flags": [],
+   "has_source_hint": false,
+   "evidence": [
+    {
+     "url": "https://m.gmw.cn/2025-01/15/content_1303948517.htm",
+     "excerpt": "2023年底发布实施的首个绿色外卖国家标准——《绿色外卖管理规范》",
+     "agent_verdict": "支持",
+     "note": "标准名称与时间一致"
+    }
+   ],
+   "action": "保留",
+   "new_text": "",
+   "label": "可信",
+   "label_reasons": [
+    "全部可解析要素及已实现的局部关系检查一致；不等于整句语义、来源真实性或因果关系已核实"
+   ],
+   "source_kinds": [
+    "网页"
+   ]
+  }
+ ],
+ "material_path": null,
+ "references": null
+}
